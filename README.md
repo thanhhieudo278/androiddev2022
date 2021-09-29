@@ -12,5 +12,5 @@ Student Info
 
 * Name: Đỗ Thanh Hiếu
 * ID: BI10-059
-* Group ID: 3 
+* Group ID: 7 
 
