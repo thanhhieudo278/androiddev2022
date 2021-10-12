@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".ForecastFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#B5D3E7"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="139dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Mon" />
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/sunny" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Sunny 30*C-32*C" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Tue" />
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/rain" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Rainy 20*C - 22*C" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="144dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Wed" />
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/rain" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Rainy 16*C - 20*C" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="146dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Thu"/>
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/thug" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Thunderstroms
+                               15*C 17*C" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="145dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Fri"/>
+
+            <ImageView
+                android:layout_width="99dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/cloudx2" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Mostly Cloudy 22*C 30*c" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="148dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Sat"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/sunny" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Sunny 24*C 31*c" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="148dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Sun" />
+
+            <ImageView
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/rain" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="Rainy 20*C 24*C" />
+
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
