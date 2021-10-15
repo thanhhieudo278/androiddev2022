@@ -3,23 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".WeatherAndForecastFragment">
+    android:id="@+id/waff"
+    android:orientation="vertical">
+
 
     <fragment
-    android:id="@+id/wf"
-    class="vn.edu.usth.weather.WeatherFragment"
-    android:layout_width="match_parent"
-    android:layout_height="400dp"
-    android:layout_weight="1"
-    android:layout_margin="10dp"
-    tools:layout="@layout/fragment_weather">
+        android:id="@+id/wf"
+        android:name="vn.edu.usth.weather.WeatherFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        tools:layout="@layout/fragment_weather"/>
 
-    </fragment>
 
     <fragment
         android:id="@+id/ff"
-        class="vn.edu.usth.weather.ForecastFragment"
+        android:name="vn.edu.usth.weather.ForecastFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
