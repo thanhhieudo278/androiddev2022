@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">USTH Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Mon">mon</string>
+
+    <string name="Sunny30C32C">Sunny30*C-32*C</string>
+    <string name="CCloudy">12C Cloudy</string>
+</resources>
