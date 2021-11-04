@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">USTH Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Mon">mon</string>
+
+    <string name="Sunny30C32C">Sunny30*C-32*C</string>
+    <string name="CCloudy">12C Cloudy</string>
+    <!--- toolbar menu icon -->
+    <string name="Search">Search</string>
+    <string name="Setting">Setting</string>
+    <string name="Notification">Notification</string>
+    <string name="Refresh">Refresh</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
