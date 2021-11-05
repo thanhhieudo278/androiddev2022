@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">USTH Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Mon">Thứ 2</string>
+
+    <string name="Sunny30C32C">Nắng 30*C-32*C</string>
+    <string name="CCloudy">12C nhiều mây</string>
+    <!--- toolbar menu icon -->
+    <string name="Search">Tìm kiếm</string>
+    <string name="Setting">Cài đặt</string>
+    <string name="Notification">Thông báo</string>
+    <string name="Refresh">Làm mới</string>
+</resources>
